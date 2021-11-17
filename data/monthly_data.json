@@ -1,0 +1,42 @@
+{
+  "monthlySales": {
+    "data": [
+      {
+        "january": {
+          "purchase": 1800000,
+          "refinance": 2000000
+        }
+      },
+      {
+        "february": {
+          "purchase": 1920000,
+          "refinance": 3500000
+        }
+      },
+      {
+        "march": {
+          "purchase": 800000,
+          "refinance": 1400000
+        }
+      },
+      {
+        "april": {
+          "purchase": 2800000,
+          "refinance": 4100000
+        }
+      },
+      {
+        "may": {
+          "purchase": 1800000,
+          "refinance": 2000000
+        }
+      },
+      {
+        "june": {
+          "purchase": 1900000,
+          "refinance": 2400000
+        }
+      }
+    ]
+  }
+}
