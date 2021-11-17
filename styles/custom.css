@@ -46,8 +46,8 @@ input.form-control {
 
 .login-card {
     border-radius: 0;
-    padding: 1rem 3rem 3rem 3rem;
-    margin-top:4rem;
+    padding:       1rem 3rem 3rem 3rem;
+    margin-top:    4rem;
 }
 
 
@@ -84,13 +84,27 @@ input.form-control {
 
 }
 
+img.banner-image {
+    background-color:    #cccccc; /* Used if the image is unavailable */
+    height:              500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat:   no-repeat; /* Do not repeat the image */
+    background-size:  crop; /* Resize the background image to cover the entire container */
+
+}
+
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
     .login-card {
         border-radius: 0;
-        padding: 0.5rem;
-        margin-top:4rem;
+        padding:       0.5rem;
+        margin-top:    4rem;
     }
 
 }
-@include media-breakpoint-down(sm) { ... }
+
+@include media-breakpoint-down(sm) {
+...
+}
